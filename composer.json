@@ -1,5 +1,5 @@
 {
-  "name": "Henrique523/alura-php-composer",
+  "name": "henrique523/alura-php-composer",
   "description": "Projeto que busca os cursos no site da Alura",
   "minimum-stability": "stable",
   "license": "proprietary",
@@ -10,6 +10,8 @@
     }
   ],
   "require": {
-    "guzzlehttp/guzzle": "^6.5"
+    "guzzlehttp/guzzle": "^6.5",
+    "symfony/dom-crawler": "^5.0",
+    "symfony/css-selector": "^5.0"
   }
 }
